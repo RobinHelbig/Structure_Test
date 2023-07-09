@@ -1,6 +1,7 @@
 class FilterOptions{
-  FilterOptions(this.category, this.distillery, this.bottlers, this.ages, this.volumes);
+  FilterOptions(this.searchInput, this.category, this.distillery, this.bottlers, this.ages, this.volumes);
 
+  String? searchInput;
   String? category;
   String? distillery;
   String? bottlers;
